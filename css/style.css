@@ -11,14 +11,12 @@
     text-align: center;
 }
 
-
-
 img{
     width: 60%;
 }
 
 .content{
-    padding: 20px 20px 0 20px;
+    padding: 20px ;
       
 }
 
@@ -31,6 +29,10 @@ p{
 .white-text{
     color:white
 }
+
+.violet-text{
+    color: rgba(151,146,228,255)
+}
 /* CLASSI HEADER */
 header{
     background-color: rgba(0,132,253,255);
@@ -39,7 +41,7 @@ header{
 }
 
 .container{
-    max-width:600px ;
+    max-width:500px ;
     margin: 0 auto;
 }
 
@@ -109,8 +111,7 @@ li button{
 
 .blue-background{
     background-color: rgba(181,221,255,255);
-    border-radius: 20px;
-   
+    border-radius: 20px;  
 }
 
 .right-content{
@@ -127,29 +128,45 @@ li button{
     width: calc(100% - 20px);
     margin: 10px;
 }
-.col-100{
-    width: 100%;
-}
 
 
-/*CLASSI TERZA ZEIONE */
 .violet-background{
     background-color: rgba(151,146,228,255);
     padding: 30px 0;
 }
 
+/*CLASSI TERZA ZEIONE */
+
 
 .col-100{
     width: calc(100% - 20px);
-    background-color: rgb(18, 128, 18);
-    height: 300px;
     margin: 10px;
+    background-color:rgba(151,146,228,255) ;
+    border-radius: 50px;
 }
 
 .white-background{
     background-color: white;
     border-radius: 10%;
 }
+
+.round-image{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.testimonials{
+    color: white;
+}
+h3.testimonials{
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
 
 /* CLASSI FOOTER */
 footer{
@@ -175,13 +192,32 @@ footer{
         width:calc(100% / 3 * 2 - 20px);
     }
 
-img{
+    img{
     width: 70%;
-}
-.right-content{
+    }
+    .right-content{
     justify-content: left ;
+    }
+    /*  TERZA SEZIONE */
+    .col-100>.content.text-center.flex{
+        text-align: left;
+        display: flex;
+        align-items: center;
+    }
+    .round-image{
+        margin:0 20px ;
+    }
+
+    .testimonials{
+        font-size: 18px;
+    }
+
+    .violet-text{
+
+    }
+
 }
-}
+
 
 
 /* DESKTOP RESPONSIVE */
