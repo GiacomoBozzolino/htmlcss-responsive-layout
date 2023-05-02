@@ -3,11 +3,6 @@
     margin: 0;
     padding: 0;
 }
-body{
-    
-}
-
-
 
 /* classi utilities */
 .text-center{
@@ -98,13 +93,10 @@ header{
 /* CLASSI PRIMA SEZIONE */
 .col-30, .col-double, .col-33{
     width: calc(100% - 20px);
-    margin: 40px 0;
+    margin: 10px;
 }
 
-.col-30,.col-double{
-    margin-left:10px; 
-    margin-right:10px;
-}
+
 
 .blue-button{
     color: white;
