@@ -3,3 +3,76 @@
     margin: 0;
     padding: 0;
 }
+
+
+
+/* classi utilities */
+.flex{
+    display: flex;
+}
+/* CLASSI HEADER */
+header{
+    background-color: lightskyblue;
+}
+
+.container{
+    max-width:750px ;
+    margin: 0 auto;
+}
+
+.col-header{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left-logo, .right-menu{
+    height: 100px;
+    width: 100px;
+    background-color: cadetblue;
+}
+
+.hamburger{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(160, 98, 95);
+    display: block;
+}
+
+
+.extended-menu{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(120, 160, 95);
+    display: none;
+}
+
+
+/* TABLET RESPONSIVE */
+@media screen and (min-width:768px){
+    .container{
+        max-width: 600px;
+    }  
+}
+
+
+/* DESKTOP RESPONSIVE */
+@media screen and (min-width:991px){
+    .container{
+        max-width: 900px;
+    }  
+    .hamburger{
+        display: none;
+    }
+    .extended-menu{
+        display: block;
+    }
+}
+
+
+/* LARGE DESKTOP RESPONSIVE */
+@media screen and (min-width:1200px){
+    .container{
+        max-width: 1140px;
+    }  
+}
