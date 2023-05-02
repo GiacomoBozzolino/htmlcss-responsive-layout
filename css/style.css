@@ -11,43 +11,64 @@
     text-align: center;
 }
 
+.text-center{
+    justify-content: center;
+    align-items: center;
+}
+
 
 /* CLASSI HEADER */
 header{
-    background-color: lightskyblue;
+    background-color: rgba(0,132,253,255);
+    color: white;
+    height: 70px;
 }
 
 .container{
-    max-width:750px ;
+    max-width:600px ;
     margin: 0 auto;
 }
 
 .col-header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
 }
 
 .left-logo, .right-menu{
-    height: 100px;
-    width: 100px;
-    background-color: cadetblue;
+    margin:20px 10px;
+
 }
 
 .hamburger{
-    height: 100px;
-    width: 100px;
-    background-color: rgb(160, 98, 95);
     display: block;
 }
 
 
 .extended-menu{
-    height: 100px;
-    width: 100px;
-    background-color: rgb(120, 160, 95);
     display: none;
 }
+.menu-content{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    padding-left:20px;
+}
+
+li button{
+    padding: 7px 12px;
+    background-color: white;
+    border-radius: 12px;
+    border: none;
+}
+
+
+
 /* FINE CLASSI HEADER */
 /* CLASSI PRIMA SEZIONE */
 .col-30, .col-double, .col-33{
