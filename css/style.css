@@ -17,13 +17,12 @@
 }
 
 img{
-    width: 100%;
+    width: 60%;
 }
 
 .content{
     padding: 20px 20px 0 20px;
-    
-    
+      
 }
 
 p{
@@ -82,6 +81,7 @@ li button{
 }
 
 /* FINE CLASSI HEADER */
+
 /* CLASSI PRIMA SEZIONE */
 .col-30, .col-double, .col-33{
     width: calc(100% - 20px);
@@ -96,7 +96,6 @@ li button{
     padding: 10px 80px;
     border-radius: 20px;
     border: none;
-    
     font-size: 17px;
     margin: 20px 0;   
 }
@@ -104,12 +103,13 @@ li button{
 .blue-title{
     color: rgba(0,132,253,255);
     padding: 20px 0;
+    font-size: 25px;
 }
 
 .blue-background{
     background-color: rgba(181,221,255,255);
     border-radius: 20px;
-    font-size: 25px;
+   
 }
 
 .right-content{
@@ -124,21 +124,30 @@ li button{
 /*CLASSI SECONDA ZEIONE */
 .col-50{
     width: calc(100% - 20px);
-    background-color: rgb(143, 20, 220);
-    height: 300px;
     margin: 10px;
 }
 .col-100{
     width: 100%;
-
 }
 
+
 /*CLASSI TERZA ZEIONE */
+.violet-background{
+    background-color: rgba(151,146,228,255);
+    padding: 30px 0;
+}
+
+
 .col-100{
     width: calc(100% - 20px);
     background-color: rgb(18, 128, 18);
     height: 300px;
     margin: 10px;
+}
+
+.white-background{
+    background-color: white;
+    border-radius: 10%;
 }
 
 /* CLASSI FOOTER */
@@ -150,6 +159,7 @@ footer{
     .container{
         max-width: 750px;
     }  
+    /* HEADER */
     .row{
         display: flex;
         flex-wrap: wrap;
@@ -163,6 +173,13 @@ footer{
     .col-double{
         width:calc(100% / 3 * 2 - 20px);
     }
+
+img{
+    width: 70%;
+}
+.right-content{
+    justify-content: left ;
+}
 }
 
 
@@ -171,6 +188,7 @@ footer{
     .container{
         max-width: 900px;
     }  
+    /* SEZIONE HEADER */
     .hamburger{
         display: none;
     }
@@ -180,12 +198,25 @@ footer{
     .flex{
         display: flex;
     }
-
     .no-wrap{
         flex-wrap: nowrap;
     }
+    /* PRIMA SEZIONE */
     .col-33{
         width: calc(100%/3 - 20px);
+    }
+    p{
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+    .blue-button{
+        padding: 10px 50px;
+        font-size: 15px;
+        margin-top: 10px;  
+        margin-bottom: 20px; 
+    }
+    img{
+        width: 90%;
     }
 }
 
