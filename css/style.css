@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    
+}
 
 
 
@@ -32,6 +35,10 @@ p{
 
 .violet-text{
     color: rgba(151,146,228,255)
+}
+
+ul{
+    list-style: none;
 }
 /* CLASSI HEADER */
 header{
@@ -67,16 +74,15 @@ header{
 }
 .menu-content{
     display: flex;
-    list-style-type: none;
     justify-content: center;
     align-items: center;
 }
 
-ul li{
+.menu-content li{
     padding-left:20px;
 }
 
-li button{
+.menu-content > li button{
     padding: 7px 12px;
     background-color: white;
     border-radius: 12px;
@@ -90,7 +96,7 @@ li button{
     width: calc(100% - 20px);
     
     /* height: 300px; */
-    margin: 10px;
+    margin: 40px 0;
 }
 
 .blue-button{
@@ -137,10 +143,9 @@ li button{
 
 /*CLASSI TERZA ZEIONE */
 
-
 .col-100{
     width: calc(100% - 20px);
-    margin: 10px;
+    margin:10px 10px 60px 10px;
     background-color:rgba(151,146,228,255) ;
     border-radius: 50px;
 }
@@ -167,11 +172,49 @@ h3.testimonials{
     padding-bottom: 20px;
 }
 
+/* CLASSI QUARTA SEZIONE */
+
+.benefits-list{
+    padding: 20px 0;
+}
+.benefits-list li{
+    padding: 10px 0;
+    color: rgba(151,146,228,255);
+}
+
+.benefits-list li p{
+    padding: 0;
+    color: grey;
+}
+
+.benefits-list li h2{
+    font-size: 50px;
+}
+
+.benefits-list li h3{
+    font-size: 30px;
+}
+
+.benefits-list button{
+    padding: 7px 30px;
+    background-color: rgba(151,146,228,255);
+    color: white;
+    border-radius:30px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 
 /* CLASSI FOOTER */
 footer{
     background-color: rgba(0, 0, 0, 0.73);
 }
+
+
+
+
+
 /* TABLET RESPONSIVE */
 @media screen and (min-width:768px){
     .container{
@@ -187,6 +230,7 @@ footer{
     }
     .col-33{
         width: calc(100%/2 - 20px);
+        margin: 10px;
     }
     .col-double{
         width:calc(100% / 3 * 2 - 20px);
@@ -211,11 +255,6 @@ footer{
     .testimonials{
         font-size: 18px;
     }
-
-    .violet-text{
-
-    }
-
 }
 
 
@@ -223,7 +262,7 @@ footer{
 /* DESKTOP RESPONSIVE */
 @media screen and (min-width:991px){
     .container{
-        max-width: 900px;
+        max-width: 950px;
     }  
     /* SEZIONE HEADER */
     .hamburger{
@@ -265,9 +304,9 @@ footer{
         max-width: 55%;
     }
 
-    .white-background{
+    /* .white-background{
         margin-top:80px;
-    }
+    } */
 
     .content.white-text:first-child{
         margin-bottom: 40px;
