@@ -7,7 +7,9 @@
 
 
 /* classi utilities */
-
+.text-center{
+    text-align: center;
+}
 
 
 /* CLASSI HEADER */
@@ -48,7 +50,7 @@ header{
 }
 /* FINE CLASSI HEADER */
 /* CLASSI PRIMA SEZIONE */
-.col-30, .col-double{
+.col-30, .col-double, .col-33{
     width: calc(100% - 20px);
     background-color: crimson;
     height: 300px;
@@ -75,11 +77,14 @@ header{
     margin: 10px;
 }
 
-
+/* CLASSI FOOTER */
+footer{
+    background-color: rgba(0, 0, 0, 0.73);
+}
 /* TABLET RESPONSIVE */
 @media screen and (min-width:768px){
     .container{
-        max-width: 600px;
+        max-width: 750px;
     }  
     .row{
         display: flex;
@@ -87,6 +92,9 @@ header{
     }
     .col-30{
         width: calc(100%/3 - 20px);
+    }
+    .col-33{
+        width: calc(100%/2 - 20px);
     }
     .col-double{
         width:calc(100% / 3 * 2 - 20px);
@@ -111,6 +119,9 @@ header{
 
     .no-wrap{
         flex-wrap: nowrap;
+    }
+    .col-33{
+        width: calc(100%/3 - 20px);
     }
 }
 
