@@ -15,7 +15,7 @@ body{
 }
 
 img{
-    width: 60%;
+    width: 80%;
 }
 
 .content{
@@ -294,6 +294,9 @@ footer{
     .container{
         max-width: 750px;
     }  
+    img{
+        width: 100%;
+    }
     /* HEADER */
     .row{
         display: flex;
@@ -310,9 +313,6 @@ footer{
         width:calc(100% / 3 * 2 - 20px);
     }
 
-    img{
-    width: 70%;
-    }
     .right-content{
     justify-content: left ;
     }
@@ -331,15 +331,15 @@ footer{
     }
 
     /* QUINTA SEZIONE */
-    .no-wrap{
-        flex-wrap: nowrap;
-    }
-
     .col-double.about-us{
         width: 60%;
     }
     .col-30.about-us{
         width: 40%
+    }
+    
+    .row.about-us{
+        flex-wrap: nowrap;
 
     }
 }
@@ -351,6 +351,9 @@ footer{
     .container{
         max-width: 950px;
     }  
+    .no-wrap{
+        flex-wrap: nowrap;
+    }
     /* SEZIONE HEADER */
     .hamburger{
         display: none;
@@ -390,28 +393,20 @@ footer{
     }
     .app-position{
         position: absolute;
-        top: 20px;
-       
-    
+        top: 80px;
     }
-
-    /* .white-background{
-        margin-top:80px;
-    } */
 
     .content.white-text:first-child{
         margin-bottom: 40px;
     }
 }
 
-.flex-end{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
+    .flex-end{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
     
-
-
 /* LARGE DESKTOP RESPONSIVE */
 @media screen and (min-width:1200px){
     .container{
