@@ -11,10 +11,7 @@
     text-align: center;
 }
 
-.text-center{
-    justify-content: center;
-    align-items: center;
-}
+
 
 img{
     width: 60%;
@@ -29,6 +26,10 @@ p{
     font-size: 20px;
     line-height: 1.5em;
     padding: 20px 0;
+}
+
+.white-text{
+    color:white
 }
 /* CLASSI HEADER */
 header{
@@ -198,6 +199,7 @@ img{
     .flex{
         display: flex;
     }
+
     .no-wrap{
         flex-wrap: nowrap;
     }
@@ -218,7 +220,30 @@ img{
     img{
         width: 90%;
     }
+
+    /* SECONDA SEZIONE */
+    .right-image{
+        width: 80%;
+    }
+    .small{
+        max-width: 55%;
+    }
+
+    .white-background{
+        margin-top:80px;
+    }
+
+    .content.white-text:first-child{
+        margin-bottom: 40px;
+    }
 }
+
+.flex-end{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+    
 
 
 /* LARGE DESKTOP RESPONSIVE */
@@ -226,4 +251,8 @@ img{
     .container{
         max-width: 1140px;
     }  
+
+    .small{
+        max-width: 60%;
+    }
 }
