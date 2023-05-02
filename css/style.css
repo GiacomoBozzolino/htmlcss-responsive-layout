@@ -211,12 +211,12 @@ h3.testimonials{
 /* FINE CLASSI QUARTA SEZIONE */
 /* CLASSI QUINTA SEZIONE */
 #violet-button{
-    padding: 7px 30px;
+    padding: 7px 15px;
     background-color: rgba(151,146,228,255);
     color: white;
     border-radius:30px;
     border: none;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 h2.violet-text{
@@ -236,11 +236,52 @@ h3.violet-text{
     font-size: 80px;
     color:  rgba(151,146,228,255);
 }
+/* FINE CLASSI QUINTA SEZIONE */
+/* CLASSI SESTA SEZIONE */
+.started-list li{
+    padding: 20px 0;
+    color:white;
+}
+
+h1{
+    color:rgba(253,193,95,255);
+    font-size: 80px;
+}
+
+.started-list li h2{
+    font-size: 40px;
+}
+
+.started-list li h3{
+    font-size: 25px;
+    color: rgb(211, 210, 210);
+}
+
+.started-list p{
+    font-size: 25px;
+ 
+}
+
+
+.started-list li button{
+    padding: 20px 80px;
+    color: rgba(151,146,228,255);
+    background-color: white;
+    border-radius:40px;
+    border: none;
+    font-size: 25px;
+ 
+}
+
 /* CLASSI FOOTER */
 footer{
     background-color: rgba(0, 0, 0, 0.73);
+    color: white;
 }
 
+.col-footer{
+    width: 100%;
+}
 
 
 
