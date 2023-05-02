@@ -20,9 +20,16 @@ img{
     width: 100%;
 }
 
-
 .content{
-    padding: 20px;
+    padding: 20px 20px 0 20px;
+    
+    
+}
+
+p{
+    font-size: 20px;
+    line-height: 1.5em;
+    padding: 20px 0;
 }
 /* CLASSI HEADER */
 header{
@@ -78,7 +85,7 @@ li button{
 /* CLASSI PRIMA SEZIONE */
 .col-30, .col-double, .col-33{
     width: calc(100% - 20px);
-    background-color: crimson;
+    
     /* height: 300px; */
     margin: 10px;
 }
@@ -86,20 +93,33 @@ li button{
 .blue-button{
     color: white;
     background-color: rgba(0,132,253,255) ;
-    padding: 10px 40px;
+    padding: 10px 80px;
     border-radius: 20px;
     border: none;
-    width: 90%;
+    
     font-size: 17px;
     margin: 20px 0;   
 }
 
 .blue-title{
     color: rgba(0,132,253,255);
+    padding: 20px 0;
 }
 
 .blue-background{
-    
+    background-color: rgba(181,221,255,255);
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+.right-content{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.icon{
+    padding-top: 30px;
+    font-size: 40px;
 }
 /*CLASSI SECONDA ZEIONE */
 .col-50{
